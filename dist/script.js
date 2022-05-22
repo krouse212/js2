@@ -15466,14 +15466,31 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _slider__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./slider */ "./src/js/slider.js");
 /* harmony import */ var _modules_modals__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/modals */ "./src/js/modules/modals.js");
 /* harmony import */ var _modules_tabs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/tabs */ "./src/js/modules/tabs.js");
+/* harmony import */ var _modules_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modules/forms */ "./src/js/modules/forms.js");
+/* harmony import */ var _modules_forms__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_modules_forms__WEBPACK_IMPORTED_MODULE_3__);
+
 
 
 
 window.addEventListener('DOMContentLoaded', function () {
+  "use strict";
+
   Object(_modules_modals__WEBPACK_IMPORTED_MODULE_1__["default"])();
   Object(_modules_tabs__WEBPACK_IMPORTED_MODULE_2__["default"])('.glazing_slider', '.glazing_block', '.glazing_content', 'active');
   Object(_modules_tabs__WEBPACK_IMPORTED_MODULE_2__["default"])('.decoration_slider', '.no_click', '.decoration_content > div > div', 'after_click');
+  _modules_forms__WEBPACK_IMPORTED_MODULE_3___default()();
 });
+
+/***/ }),
+
+/***/ "./src/js/modules/forms.js":
+/*!*********************************!*\
+  !*** ./src/js/modules/forms.js ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: D:\\js udemy\\udemy2\\js2\\src\\js\\modules\\forms.js: Expecting Unicode escape sequence \\uXXXX (9:45)\n\n\u001b[0m \u001b[90m  7 | \u001b[39m    phoneInputs\u001b[33m.\u001b[39mforEach(input \u001b[33m=>\u001b[39m{\u001b[0m\n\u001b[0m \u001b[90m  8 | \u001b[39m        item\u001b[33m.\u001b[39maddEventListener(\u001b[32m'input'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m{\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  9 | \u001b[39m            item\u001b[33m.\u001b[39mvalue \u001b[33m=\u001b[39m item\u001b[33m.\u001b[39mvalue\u001b[33m.\u001b[39mreplace(\u001b[37m\u001b[41m\u001b[1m\\\u001b[22m\u001b[49m\u001b[39m\u001b[33m/\u001b[39m\u001b[33mD\u001b[39m\u001b[37m\u001b[41m\u001b[1m\\\u001b[22m\u001b[49m\u001b[39m\u001b[33m,\u001b[39m \u001b[32m''\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    | \u001b[39m                                             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 10 | \u001b[39m        })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 11 | \u001b[39m    })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 12 | \u001b[39m\u001b[0m\n    at Parser.raise (D:\\js udemy\\udemy2\\js2\\node_modules\\@babel\\parser\\lib\\index.js:6975:17)\n    at Parser.readWord1 (D:\\js udemy\\udemy2\\js2\\node_modules\\@babel\\parser\\lib\\index.js:8175:16)\n    at Parser.readWord (D:\\js udemy\\udemy2\\js2\\node_modules\\@babel\\parser\\lib\\index.js:8204:23)\n    at Parser.getTokenFromCode (D:\\js udemy\\udemy2\\js2\\node_modules\\@babel\\parser\\lib\\index.js:7672:14)\n    at Parser.nextToken (D:\\js udemy\\udemy2\\js2\\node_modules\\@babel\\parser\\lib\\index.js:7195:12)\n    at Parser.next (D:\\js udemy\\udemy2\\js2\\node_modules\\@babel\\parser\\lib\\index.js:7124:10)\n    at Parser.parseSubscript (D:\\js udemy\\udemy2\\js2\\node_modules\\@babel\\parser\\lib\\index.js:9312:12)\n    at Parser.parseSubscripts (D:\\js udemy\\udemy2\\js2\\node_modules\\@babel\\parser\\lib\\index.js:9231:19)\n    at Parser.parseExprSubscripts (D:\\js udemy\\udemy2\\js2\\node_modules\\@babel\\parser\\lib\\index.js:9220:17)\n    at Parser.parseMaybeUnary (D:\\js udemy\\udemy2\\js2\\node_modules\\@babel\\parser\\lib\\index.js:9190:21)");
 
 /***/ }),
 
