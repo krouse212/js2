@@ -4,9 +4,9 @@ const forms = () => {
         phoneInputs = document.querySelectorAll('input[name="user_phone"]');
 
 
-    phoneInputs.forEach(input =>{
+    phoneInputs.forEach(item =>{
         item.addEventListener('input', () =>{
-            item.value = item.value.replace(\/D\, '');
+            item.value = item.value.replace(/\D/, '');
         });
     });
 
